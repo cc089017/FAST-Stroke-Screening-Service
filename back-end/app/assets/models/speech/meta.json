@@ -1,0 +1,12 @@
+{
+  "S_REF": 5,
+  "sr": 16000,
+  "n_mfcc": 13,
+  "ref_count": 15,
+  "notes": "serve-scale(≈4.5) alignment via linear scaling k; pyin+fallback voiced; MFCC-CMVN; fastdtw/pathlen",
+  "dtw_scale": {
+    "target": 4.5,
+    "observed": 12.691737448323924,
+    "k": 0.35456138439061957
+  }
+}

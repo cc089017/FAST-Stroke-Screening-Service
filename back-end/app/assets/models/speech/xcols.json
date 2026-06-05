@@ -1,0 +1,12 @@
+[
+  "dtw_slice1_mean",
+  "dtw_slice2_mean",
+  "dtw_slice3_mean",
+  "dtw_slice4_mean",
+  "dtw_slice5_mean",
+  "dtw_mean_slope",
+  "zcr_mean",
+  "zcr_std",
+  "rms_mean",
+  "rms_std"
+]

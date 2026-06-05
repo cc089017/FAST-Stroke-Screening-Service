@@ -1,22 +1,38 @@
+# dependencies
+node_modules/
+venv/
+.venv/
+
+# environment
+.env
+*.env
+
 # Python
 __pycache__/
 *.pyc
-.venv/
+*.pyo
+*.pyd
 
-# Node
-node_modules/
-dist/
-.vite/
-
-# IDE / Editor
-.vscode/
-.idea/
-
-# OS
+# macOS
 .DS_Store
-Thumbs.db
+__MACOSX/
 
-back-end/app/assets/models/
-back-end/app/static/
+# IDE
+.idea/
+.vscode/
 
-.env
+# logs
+*.log
+
+# build
+dist/
+build/
+
+# local files
+*.zip
+back-end/app/assets/models/speech/rf_pipe.joblib
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.h5
