@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind로 스타일링할 거라면 아래 기본 스타일은 지우는 게 좋아 */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
